@@ -13,11 +13,11 @@ export const ABOUT_TEXT = `I am currently pursuing a master’s in Software Engi
 
 export const EXPERIENCES = [
   {
-    year: "October 2022 - August 2023",
-    role: "Test Automation Engineer",
-    company: "Accenture",
-    description: `In the banking project Raise, I implemented numerous test cases, managed 1000+ test suite migrations, and adjusted the framework as needed. I also conducted knowledge transfer sessions to equip clients with essential technical skills.`,
-    technologies: ["Java", "Spring", "Selenium", "TestNG", "Junit", "Cucumber", "Postman", "Jmeter", "Vugen"],
+    year: "August 2024 - Present",
+    role: "Business Analyst",
+    company: "Worldwide Flight Services",
+    description: `Developed a Python-based automation that streamlined PMI equipment verification by integrating with Dossier, generating structured Excel reports, and reducing manual work by 80%. Designed a Tkinter interface with SQLite validation to manage and verify asset documents, boosting upload accuracy and cutting errors by 76%. Built interactive Power BI dashboards using Power Query and 20+ DAX measures to monitor PMI status, repair progress, and asset costs—enhancing KPI visibility by 20% and reducing duplicate work requests by 83%`,
+    technologies: ["Python", "RestAPI", "PowerBI", "Tkinter", "SQL", "SQL-Lite", "Postman", "Excel"],
   },
   {
     year: "June 2021 - August 2021",
@@ -89,7 +89,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "75 saint alphonsus street, Boston, MA, 02120",
-  phoneNo: "+1 (857) 961-7812",
-  email: "hasini.muvva0123@gmail.com",
+  address: "Irving, TX, USA",
+  phoneNo: "+1 (267) 205-3125",
+  email: "sriteja439@gmail.com",
 };
