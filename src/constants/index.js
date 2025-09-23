@@ -6,32 +6,56 @@ import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/project-7.jpg";
 
-export const HERO_CONTENT = `I’m a dedicated full stack developer who loves creating efficient and user-friendly web applications. With experience in agile methodologies and proficiency in Java, Python, JavaScript. I excel in both front-end and back-end development. I'm eager to take on new challenges in full stack, back-end, front-end, or cloud roles, always ready to learn and contribute to the team's success. When not coding, you’ll find me either annoying my pet dog, Jakku or immersed in a fantasy adventure movie, or exploring new technologies.
+export const HERO_CONTENT = `I love turning complex data into actionable insights and building intelligent systems that make a real impact. Working across Data Science, Machine Learning, and Data Engineering, I enjoy creating cloud-powered solutions, Python-based models, and AI-driven tools that solve real-world problems. I’m energized by opportunities to innovate, automate workflows, and scale solutions that drive measurable results.
+When I’m not coding or experimenting with new AI tools, you’ll probably find me watching series, listening to music, or playing mobile games to unwind and recharge.
 `
 
-export const ABOUT_TEXT = `I am currently pursuing a master’s in Software Engineering Systems at Northeastern University. As an avid coder with a knack for solving challenges and crafting creative solutions, I have worked with various technologies such as React, Node.js, Next.js, Spring, MongoDB, MySQL, and PostgreSQL. I have hands-on experience implementing RESTful APIs using Node.js and deploying them on Google Cloud Platform (GCP). Previously, as a Test Automation Engineer at Accenture, I designed and automated test cases to ensure comprehensive coverage of software functionalities. I prepared clear documentation, explained test scenarios to clients, conducted performance testing with over 100 virtual users, and generated detailed reports to drive effective issue resolution and continuous software improvement.I consistently deliver high-quality code and bring a keen eye for detail to every project. With a strong commitment to continuous learning and a passion for technology, I am eager to tackle new challenges and contribute to the success of innovative projects.`
+export const ABOUT_TEXT = ` With over 3 years of experience in data science, machine learning, and analytics, I specialize in building scalable solutions that automate workflows, uncover insights, and enhance decision-making. I earned my Master’s in Data Science from Drexel University (CGPA: 3.9), where I also participated in hackathons, winning 1st place at Philly Code Fest 2024 for developing ASTHRA, an AI-powered RAG platform that converts research papers into podcasts.
+
+My experience spans across Python, cloud platforms (AWS, GCP, Azure), and modern data tools, where I have engineered automation pipelines, deployed ML models, and designed interactive dashboards in Power BI and Tableau. I’ve built AI-driven chatbots with LangChain, Python agents, and multi-model LLMs, enabling personalized learning and smarter user interactions.
+
+I thrive in fast-paced, data-driven environments—whether optimizing ETL workflows, deploying ML systems with MLOps, or delivering actionable analytics that cut manual effort by over 80%. Beyond industry work, I’ve contributed to published research on data visualization and fraud detection and hold multiple certifications in machine learning, Python, and database management.
+
+I’m passionate about leveraging data science, machine learning, and AI to solve complex problems, drive innovation, and create impactful, real-world solutions. Let’s connect and explore opportunities to collaborate!`
 
 export const EXPERIENCES = [
   {
     year: "August 2024 - Present",
     role: "Business Analyst",
     company: "Worldwide Flight Services",
-    description: `Developed a Python-based automation that streamlined PMI equipment verification by integrating with Dossier, generating structured Excel reports, and reducing manual work by 80%. Designed a Tkinter interface with SQLite validation to manage and verify asset documents, boosting upload accuracy and cutting errors by 76%. Built interactive Power BI dashboards using Power Query and 20+ DAX measures to monitor PMI status, repair progress, and asset costs—enhancing KPI visibility by 20% and reducing duplicate work requests by 83%`,
+    description: `Automated PMI equipment verification with Python by integrating Dossier, generating structured Excel reports, and reducing manual effort by 80%. Built a Tkinter interface with SQLite validation to streamline asset document management, improving accuracy by 76%. 
+    Designed Power BI dashboards with Power Query and 20+ DAX measures to track PMI status, repairs, and costs—boosting KPI visibility by 20% and cutting duplicate work requests by 83%.`,
     technologies: ["Python", "RestAPI", "PowerBI", "Tkinter", "SQL", "SQL-Lite", "Postman", "Excel"],
   },
   {
-    year: "June 2021 - August 2021",
-    role: "Machine Learning Engineer",
-    company: "Indian Servers",
-    description: `Developed a real time image processing system using OpenCV for hand gesture recognition and tracking, enabled users to choose from a variety of colors and brush sizes.
-    Led and Implemented an auto-encoder neural network using TensorFlow. Trained the model on a dataset of MNIST and achieved a loss of just  0.0484.`,
-    technologies: ["OpenCV", "Python", "Matplotlib", "Tensor flow", "Scikit-learn"],
+    year: "July 2023 - Jan 2024",
+    role: "Data Science Intern",
+    company: "MyEdMaster LLC",
+    description: `Developed a disease prediction ML model in AWS SageMaker using K-Means clustering and LSTM, optimizing training with mini-batch gradient descent to cut training time by 20%. Conducted client surveys to enrich datasets, boosting data-driven decision-making by 25%. 
+    Built an educational website with HTML, CSS, JavaScript, and an interactive chatbot for personalized learning resources. Leveraged LangChain, Python agents, and multi-model LLMs (Mistral 7B, Llama2-34B) to analyze user behavior, classify users into 4 groups, and deliver tailored explanations with real-world examples.`,
+    technologies: ["AWS SageMaker", "K-Means", "LSTM", "Mini-batch Gradient Descent", "HTML", "CSS", "JavaScript", "LangChain", "Mistral 7B", "Llama2-34B","Chatbot","Python Agents"],
+  },
+  {
+    year: "May 2021 - August 2021",
+    role: "Research Assistant(Data Analyst)",
+    company: "GITAM University",
+    description: `Collaborated with Professor Dr. Bhavani on COVID data analysis, applying diverse visualization techniques (Tree Maps, Box Plots, Bubble Charts) to uncover trends and patterns. 
+    Streamlined data integration with Apache NiFi and ETL pipelines, loading into AWS Redshift for advanced analytics. Built Tableau dashboards to present insights, contributing to a published research article on data visualization techniques that received 1500+ views and IEEE citations.`,
+    technologies: ["AWS Redshift", "Tableau", "Apache NIFI", "ETL"],
+  },
+  {
+    year: "August 2020 - April 2021",
+    role: "Machine Learning Intern",
+    company: "Triad Square Infosec",
+    description: `Built a Hospital Management System using Java and Spring MVC, integrating a KNN model trained on patient history to predict wait times and the Nexmo API for automated medication reminders. 
+    Implemented MLOps pipelines with Google Cloud Build, automated retraining via AI Platform, and monitoring using Stackdriver, with Google Cloud Storage for secure patient data management. Deployed the KNN model and application on Google Compute Engine and AI Platform, while hosting the user interface on Google App Engine for seamless operation.`,
+    technologies: ["Java", "Spring MVC", "KNN", "Nexmo API", "Google Cloud Build", "AI Platform", "Stackdriver", "Google Cloud Storage", "Google Compute Engine", "Google App Engine"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "Restaurant Management System",
+    title: "ASTHRA",
     image: project1,
     description:
       "It is a software system designed to streamline restaurant operations, including order management, reservation handling, customer feedback collection, and inventory management. It employs Oracle SQL and PL/SQL for creating views, executing queries, and managing data with DML and DDL operations, utilizing functions and stored procedures for efficient task handling.",
