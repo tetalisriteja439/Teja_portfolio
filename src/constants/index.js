@@ -7,7 +7,7 @@ import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/project-7.jpg";
 
 export const HERO_CONTENT = `I love turning complex data into actionable insights and building intelligent systems that make a real impact. Working across Data Science, Machine Learning, and Data Engineering, I enjoy creating cloud-powered solutions, Python-based models, and AI-driven tools that solve real-world problems. I’m energized by opportunities to innovate, automate workflows, and scale solutions that drive measurable results.
-When I’m not coding or experimenting with new AI tools, you’ll probably find me watching series, listening to music, or playing mobile games to unwind and recharge.
+When I’m not coding or experimenting with new AI tools, you’ll probably find me watching Netflix, listening to music, or playing mobile games to unwind and recharge.
 `
 
 export const ABOUT_TEXT = ` With over 3 years of experience in data science, machine learning, and analytics, I specialize in building scalable solutions that automate workflows, uncover insights, and enhance decision-making. I earned my Master’s in Data Science from Drexel University (CGPA: 3.9), where I also participated in hackathons, winning 1st place at Philly Code Fest 2024 for developing ASTHRA, an AI-powered RAG platform that converts research papers into podcasts.
@@ -58,9 +58,10 @@ export const PROJECTS = [
     title: "ASTHRA",
     image: project1,
     description:
-      "It is a software system designed to streamline restaurant operations, including order management, reservation handling, customer feedback collection, and inventory management. It employs Oracle SQL and PL/SQL for creating views, executing queries, and managing data with DML and DDL operations, utilizing functions and stored procedures for efficient task handling.",
-    technologies: ["Oracle SQL", "PL/SQL", "DDL/DML", "TCL"],
-    link: "https://github.com/Sai-Geeta-Acharya/DMDD_DineEase" // Add the link here
+      `Developed ASTHRA, an advanced RAG platform using LlamaIndex, Deepgram, and Streamlit that transforms research papers into podcasts for easier comprehension. 
+      It also provides an interactive chat interface, enabling deeper engagement with academic content. The platform is designed to help researchers and students save time and enhance accessibility. Awarded 1st Prize at Philly Codefest.`,
+    technologies: ["LlamaIndex", "Deepgram", "Streamlit", "OpenAI/ LLMs", "Python", "RAG"],
+    link: "https://github.com/tetalisriteja439/ASTHRA/tree/main" // Add the link here
   },
   {
     title: "Cloud Native Webapp",

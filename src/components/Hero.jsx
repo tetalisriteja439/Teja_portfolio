@@ -1,5 +1,5 @@
 import { HERO_CONTENT } from "../constants/index";
-import profilePic from "../assets/HMPIC.jpeg";
+import profilePic from "../assets/HMPIC.jpg";
 import {motion} from "framer-motion";
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -42,7 +42,7 @@ const Hero = () => {
           initial= {{x: 100, opacity: 0}}
           animate= {{x: 0, opacity: 1}}
           transition={{duration: 1,delay: 1.2}}
-           src={profilePic} alt="myphotohere" style={{ width: '500px', height: '400px' }} />
+           src={profilePic} alt="myphotohere" style={{ width: '500px', height: '500px' }} />
           </div>
         </div>
       </div>
