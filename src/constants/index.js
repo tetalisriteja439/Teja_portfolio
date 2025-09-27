@@ -2,8 +2,6 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import project5 from "../assets/projects/project-5.jpg";
-import project6 from "../assets/projects/project-6.jpg";
 import project7 from "../assets/projects/project-7.jpg";
 
 export const HERO_CONTENT = `I love turning complex data into actionable insights and building intelligent systems that make a real impact. Working across Data Science, Machine Learning, and Data Engineering, I enjoy creating cloud-powered solutions, Python-based models, and AI-driven tools that solve real-world problems. I’m energized by opportunities to innovate, automate workflows, and scale solutions that drive measurable results.
@@ -60,57 +58,49 @@ export const PROJECTS = [
     description:
       `Developed ASTHRA, an advanced RAG platform using LlamaIndex, Deepgram, and Streamlit that transforms research papers into podcasts for easier comprehension. 
       It also provides an interactive chat interface, enabling deeper engagement with academic content. The platform is designed to help researchers and students save time and enhance accessibility. Awarded 1st Prize at Philly Codefest.`,
-    technologies: ["LlamaIndex", "Deepgram", "Streamlit", "OpenAI/ LLMs", "Python", "RAG"],
+    technologies: ["LlamaIndex", "Deepgram", "AI agents", "OpenAI/ LLMs", "Python", "RAG"],
     link: "https://github.com/tetalisriteja439/ASTHRA/tree/main" // Add the link here
   },
   {
-    title: "Cloud Native Webapp",
+    title: "UP (Upgrade the game of Under Priviledged Business Owners)",
     image: project2,
     description:
-      "Implemented secure RESTful APIs with Node.js and Sequelize ORM in a microservices architecture, integrating user management, CRUD operations, and automated email verification. Utilized serverless computing and Pub/Sub for scalability. Managed GCP infrastructure with Terraform, designed custom compute engine images, implemented encryption and SSL certificates, and facilitated seamless updates through continuous deployment and rolling updates.",
-    technologies: ["Node.js", "Sequelize ORM","MicroServices", "Pub/Sub", "Terraform", "GCP","Basic Auth Authentication", "SSL Certificates", "CI/CD", "Linux", "Bash"],
-    link: "https://github.com/CloudCourseSpring2024/webapp" // Add the link here
+      `Developed an AI-powered chatbot and application that empowers underprivileged business owners to manage operations through natural language. The system integrates multiple intelligent AI/Python agents for inventory management, sales analysis, market research, and customer communication—streamlining workflows and boosting efficiency, including:
+      Inventory Manager – tracks stock, sales, and product performance
+      Catalog Business Analyst – recommends product additions and pairings
+      Internet Surfer – conducts market research and competitor analysis
+      Report Analyst – generates performance insights and PDF reports
+      Email Manager – organizes and automates customer/employee communication`,
+    technologies: ["Python", "Streamlit","OpenAI", "groq", "duckduckgo_search","Google Auth Authentication"],
+    link: "https://github.com/tetalisriteja439/Up-" // Add the link here
   },
   {
-    title: "Library Management System",
+    title: "Academix",
     image: project3,
     description:
-      "Library management application efficiently handles user registration and login, book and student management, and real-time status updates for borrowing activities. Implemented with Java and Swing for the GUI, it uses NetBeans as the IDE and MySQL for the database.",
-    technologies: ["JAVA", "SWING", "MySQL"],
-    link: "https://github.com/CSYE6200-Object-Oriented-DesignFall2023/final-project-final-group-8" // Add the link here
+      "Created a comprehensive student assistant app powered by RAG to reduce hallucinations and deliver accurate, context-rich answers. The platform integrates multiple sources, including GitHub, YouTube transcripts, PDFs, class recordings, and internet search, into a unified application. To enhance usability, I developed a custom browser extension that transforms internet content into personalized, easy-to-read formats. An intuitive Gradio interface ensures smooth interaction and accessibility for students. Behind the scenes, the system leverages Vector DB, web scraping, and PDF parsing to provide reliable, study-focused insights.",
+    technologies: ["RAG", "Vector DB", "togetherAI", "Python", "Gradio", "duckduckgo_search", "web scraping", "PDF parsing"],
+    link: "https://github.com/tetalisriteja439/Academix" // Add the link here
   },
   {
-    title: "NammaBnB",
+    title: "California-Real-Estate-Data-Analysis",
     image: project4,
     description:
-      "Successfully executed Nammabnb project, seamlessly integrating front-end and back-end functionalities. Enabled hosts to showcase properties and guests to securely explore and book accommodations. Adhered to CRUD operations, routing, Redux, internationalization, and PWA standards for a professional-grade UI and intuitive user experience.",
-    technologies: ["React", "Tailwind", "Prisma", "MongoDB", "NextAuth."],
-    link: "https://github.com/info-6150-fall-2023/final-project-techno-sync" // Add the link here
+      `This study provides a comprehensive analysis of the California real estate market, designed to help prospective homebuyers make informed decisions. Unlike traditional approaches that focus mainly on demographics and property data, our report integrates macroeconomic indicators, historical trends, and demographic features to present a holistic view. 
+      By leveraging diverse datasets from sources such as the FBI, FRED, U.S. Census Bureau, Zillow, CAR, and Kaggle, we explore key metrics including CPI, GDP, interest rates, unemployment, and housing prices. Through detailed analysis and visualizations, the report highlights market dynamics and optimal timing for real estate investments. Ultimately, it equips readers with data-backed insights to navigate California’s evolving housing market confidently.`,
+    technologies: ["Python", "SQL", "Tableau", "JupyterNotebook", "Seaborn","Matplotlib"],
+    link: "https://github.com/tetalisriteja439/California-Real-Estate-Data-Analysis" // Add the link here
   },
   {
-    title: "Plant Disease Detection",
+    title: "Cricket-API",
     image: project7,
     description:
-      "Developed a robust plant disease detection system using Convolutional Neural Networks (CNN) with a remarkable accuracy rate on the Plant Village dataset, showcasing expertise in computer vision and machine learning for agricultural applications.",
-    technologies: ["Python", "Keras", "sklearn", "Tensorflow"],
-    link: "https://drive.google.com/file/d/19ICrBQTujWQjGt4zBujUb1u7S62csnJn/view?usp=sharing" // Add the link here
+      `Developed an API to retrieve and analyze cricket player data from ESPNCricinfo, enabling in-depth performance insights for fantasy sports and analytics applications. The API provides access to player profiles, detailed career statistics, squad information, ball-by-ball match analysis, and player images. 
+      Leveraging domain knowledge of cricket, raw data points were transformed into user-friendly features for easier interpretation.his API empowers developers and analysts to build cricket-focused tools with reliable, structured data.`,
+    technologies: ["Python", "Flask", "Beautiful Soup", "Selenium", "Regex"],
+    link: "https://github.com/tetalisriteja439/Cricket-API" // Add the link here
   },
-  {
-    title: "Hospital Database Management",
-    image: project5,
-    description:
-      "creating and managing multiple tables to store information about doctors, patients, rooms, visitors, in-patients, out-patients, transaction types, and pharmacy. The project involved implementing primary and foreign keys, constraints, and inserting records to ensure data integrity and relationships between the entities. This setup allowed for efficient organization and retrieval of hospital-related data.",
-    technologies: ["Oracle SQL", "LucidChart"],
-    link: "https://drive.google.com/file/d/12Xiouvo7FGNgvyFpTjGoMDuAmKs_hghb/view?usp=sharing" // Add the link here
-  },
-  {
-    title: "University Database Management",
-    image: project6,
-    description:
-      "I worked on the Glearn student portal for GITAM University, a subpart of the university database. I identified entities and relationships, determined cardinalities, and defined attributes for the database. I normalized the database to 3NF. The website provides hassle-free transactions for students and administration and is maintained by the department to ensure efficient usage.",
-    technologies: ["SQL", "Draw.io", "DDL/DML", "3NF"], 
-    link: "https://drive.google.com/file/d/14t0dqEXAmr5PBnm3iG28ns-rrrIzh0yf/view?usp=sharing" // Add the link here
-  },
+  // ...existing code...
 ];
 
 export const CONTACT = {
