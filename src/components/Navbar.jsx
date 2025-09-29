@@ -1,4 +1,4 @@
-import logo from "../assets/HasiniMuvvaLogo.png";
+import logo from "../assets/Tejalogo.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
         <a href="https://github.com/tetalisriteja439" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
-        <a href="https://drive.google.com/file/d/1sYPcfR2oa5OEGw1qKFrxwslJvNw7vTF8/view?usp=drive_link">Resume</a>
+        <a href="https://drive.google.com/file/d/1p174AR8OznHReEX7JuP7lTmuBc7BS6xH/view?usp=sharing">Resume</a>
       </div>
     </nav>
   );

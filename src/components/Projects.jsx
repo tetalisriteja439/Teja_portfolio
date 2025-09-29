@@ -29,8 +29,8 @@ const Projects = () => {
               >
                 <img
                   src={projects.image}
-                  width={220}
-                  height={100}
+                  width={index === 0 || index === 1 ? 180 : 200}
+                  height={index === 0 || index === 1 ? 80 : 100}
                   alt={projects.title}
                   className="mt-6 mb-6 rounded cursor-pointer hover:opacity-80"
                 />

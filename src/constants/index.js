@@ -1,8 +1,8 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpeg";
+import project1 from "../assets/projects/project-1.png";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
-import project7 from "../assets/projects/project-7.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
 export const HERO_CONTENT = `I love turning complex data into actionable insights and building intelligent systems that make a real impact. Working across Data Science, Machine Learning, and Data Engineering, I enjoy creating cloud-powered solutions, Python-based models, and AI-driven tools that solve real-world problems. I’m energized by opportunities to innovate, automate workflows, and scale solutions that drive measurable results.
 When I’m not coding or experimenting with new AI tools, you’ll probably find me watching Netflix, listening to music, or playing mobile games to unwind and recharge.
@@ -93,7 +93,7 @@ export const PROJECTS = [
   },
   {
     title: "Cricket-API",
-    image: project7,
+    image: project5,
     description:
       `Developed an API to retrieve and analyze cricket player data from ESPNCricinfo, enabling in-depth performance insights for fantasy sports and analytics applications. The API provides access to player profiles, detailed career statistics, squad information, ball-by-ball match analysis, and player images. 
       Leveraging domain knowledge of cricket, raw data points were transformed into user-friendly features for easier interpretation.his API empowers developers and analysts to build cricket-focused tools with reliable, structured data.`,
